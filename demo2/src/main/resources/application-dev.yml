@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: demo2
+server:
+  port: 8082
+  servlet:
+    context-path: /demo2
+
+student:
+  jack:
+    name: jack
+    sex: 1
+    isOk: true
+  marry:
+    name: marry
+    sex: 0
+    isOk: true
+  tom:
+    name: tom
+    sex: 1
+    isOk: false
