@@ -1,29 +1,39 @@
 package edu.maskleo.configure.demo2.demo;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.env.Environment;
 
 @Configuration
+@ConfigurationProperties(prefix = "student")
 public class Teacher {
 
-    @Autowired
-    private Environment env;
+    private Student jack;
 
-    @Bean
+    private Student marry;
+
+    private Student tom;
+
     public Student getJack() {
-        return env.getProperty("student.jack",Student.class);
+        return jack;
     }
 
-    @Bean
+    public void setJack(Student jack) {
+        this.jack = jack;
+    }
+
     public Student getMarry() {
-        return env.getProperty("student.marry",Student.class);
+        return marry;
     }
 
-    @Bean
+    public void setMarry(Student marry) {
+        this.marry = marry;
+    }
+
     public Student getTom() {
-        return env.getProperty("student.tom",Student.class);
+        return tom;
     }
 
+    public void setTom(Student tom) {
+        this.tom = tom;
+    }
 }
