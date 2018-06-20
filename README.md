@@ -1,5 +1,18 @@
 # springboot-configure-annotation
 
+## [@Bean使用实例](demo1/README.md)
+
+
+
+
+
+
+
+
+
+
+
+
 EnvironmentManager
 
 https://spring.io/guides/gs/centralized-configuration/
