@@ -12,7 +12,7 @@ public class Teacher {
 
     private Student tom;
 
-    // git and set 
+    // get and set 
 }
 ```
 
