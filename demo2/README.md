@@ -25,7 +25,7 @@ public class Student {
 
     private boolean isOk;
 
-    // git and set
+    // get and set
 }
 ```
 
