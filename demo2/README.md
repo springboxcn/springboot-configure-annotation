@@ -56,3 +56,5 @@ https://stackoverflow.com/questions/39198766/how-to-define-complex-list-for-appl
 https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-external-config
 
 https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-external-config-vs-value
+
+https://therealdanvega.com/blog/2017/06/26/spring-boot-configuration-using-yaml
