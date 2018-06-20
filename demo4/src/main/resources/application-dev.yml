@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: demo4
+server:
+  port: 8084
+  #servlet:
+  #  context-path: /demo4
+
+student-list:
+  jack:
+    name: jack
+    sex: 1
+    isOk: true
+  marry:
+    name: marry
+    sex: 0
+    isOk: true
+  tom:
+    name: tom
+    sex: 1
+    isOk: false
+management:
+#  security:
+#    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+#endpoints:
+#  actuator:
+#    enabled: true
