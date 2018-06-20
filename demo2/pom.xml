@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.maskleo.configure.demo2</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>demo2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>demo</name>
+    <name>demo2</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
