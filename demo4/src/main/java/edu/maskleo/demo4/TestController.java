@@ -17,7 +17,7 @@ public class TestController {
     private Teacher teacher;
 
     @Value("${student-list.tom.name}")
-    private String name;
+    private String name = "def";
 
     @GetMapping("test")
     public ResponseEntity<String> test() {
